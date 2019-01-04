@@ -1,10 +1,9 @@
 README.md:
-	echo "Title of my project is FUN GUESS" > README.md
-	echo -e "\n"
-	echo "Date and Time at which make was run is:" >> README.md
-	echo -e "\n"
+	echo "Title of my project is FUN GUESS.........\n" > README.md
+	echo "Date and Time at which make was run is:\n" >> README.md
 	date >> README.md
-	echo -e "\n"
-	echo "Number of lines of code in guessingname.sh are:" >> README.md
-	echo "\n"
+	echo "\n Number of lines of code in guessingname.sh are:\n" >> README.md
 	wc -l guessinggame.sh >> README.md
+
+clean:
+	rm README.md
